@@ -16,13 +16,20 @@ Pair plots and correlation heatmaps were then used to visualise patterns in the 
 
 Several single models were tested, with Naïve Bayes as the baseline. The results are shown below.
 
-![Single model reults](https://github.com/user-attachments/assets/bcba7c93-51dc-4bf2-8e26-65c748b50058)
-
+| Model | Train Accuracy | Test Accuracy |
+| --- | :-: | :-: |
+| Naive Bayes | 76.13% | 77.32% |
+| Decision tree | **98.49%** | **98.55%** |
+| Logistic regression | 84.11% | 82.38% |
+| Support Vector Machine | 95.77% | 96% |
 
 Ensemble models were then tested, results shown below. 
 
-![Ensemble model results](https://github.com/user-attachments/assets/7851a6f2-a2aa-4a76-8e78-0b1f3c57f755)
-
+| Model | Train Accuracy | Test Accuracy |
+| --- | :-: | :-: |
+| Random Forest | 98.40% | 98.17% |
+| AdaBoost| 96.31% | 96.78% |
+| XGBoost | **98.45%** | **98.28%** |
 
 The XGBoost model was chosen to dive deeper into the analysis of feature importances, feature permutations and SHAP. From these conclusion were drawn and business recommendations given.
 
